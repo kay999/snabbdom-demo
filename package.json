@@ -1,0 +1,23 @@
+{
+  "name": "sd_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildSnabbdom": "browserify -s snabbdom -p tinyify -e snabbdomBundle.js > snabbdom.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "snabbdom": "^0.7.3"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "exorcist": "^1.0.1",
+    "tinyify": "^2.5.0",
+    "uglify-js": "^3.4.9",
+    "watchify": "^3.11.1"
+  }
+}
